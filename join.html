@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="joinbody">
+    <header class="otherHeader">
+      <div class="navbar">
+        <a href="index.html"><img id="logo" src="webdevphotos/logo.png" /></a>
+        <nav>
+          <ul>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="membership.html">MEMBERSHIP</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+          </ul>
+        </nav>
+        <button type="button"><a href="join.html">JOIN THE CHAMBER</a></button>
+      </div>
+    </header>
+    <main class="joinMain">
+      <div class="joinBG">
+        <h1>Join The Chamber</h1>
+        <p>
+          Join the Chamber of Commerce today amd be apart of a dynamic coomunity
+          thats decicated to your success
+        </p>
+        <form
+          action="https://wp.zybooks.com/form-viewer.php"
+          target="_blank"
+          method="GET"
+        >
+          <p>
+            <label for="dob">Date of birth:</label>
+            <input type="date" name="dob" id="dob" required />
+          </p>
+          <p>
+            <label for="pin">Four digit PIN:</label>
+            <input
+              type="text"
+              name="pin"
+              id="pin"
+              maxlength="4"
+              pattern="^\d{4}$"
+              title="Exactly 4 digits"
+              required
+            />
+          </p>
+          <p>
+            <label for="pickNum">Number between 1 and 10:</label>
+            <input
+              type="number"
+              name="pickNum"
+              id="pickNum"
+              min="1"
+              max="10"
+              required
+            />
+          </p>
+          <p>
+            <label for="emailAddr">Email address:</label>
+            <input type="email" name="emailAddr" id="emailAddr" required />
+          </p>
+          <input type="submit" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footerContainer">
+        <div class="footerDiv">
+          <div class="footerButtons">
+            <button type="button">
+              <img src="webdevphotos/facebook.png" />
+            </button>
+            <button type="button">
+              <img src="webdevphotos/linkedin copy.png" />
+            </button>
+            <button type="button">
+              <img src="webdevphotos/instagram-logo.png" />
+            </button>
+          </div>
+          <ul>
+            <li class="bTitle">amcbcc business community</li>
+            <li><a href="join.html">Join the Chamber</a></li>
+          </ul>
+          <ul>
+            <li class="bTitle">Events and programming</li>
+            <li><a href="events.html">Upcoming Events</a></li>
+          </ul>
+          <ul>
+            <li class="bTitle">Memberships</li>
+            <li><a href="membership.html">Memberships Benefits</a></li>
+          </ul>
+          <ul>
+            <li class="bTitle">ABOUT</li>
+            <li><a href="about.html">About the Chamber</a></li>
+          </ul>
+        </div>
+        <div class="bottomFoot">
+          <ul>
+            <li>Privacy Statement</li>
+            <li>Terms of Use</li>
+          </ul>
+          <p>2026 Anderson Madison County Black Chamber of Commerce</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
