@@ -471,6 +471,51 @@ footer{
         color:rgb(0, 60, 105);
     }
 }
+.benefits-table {
+    width: 80%;
+    margin: 4vw auto;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.benefits-table th, 
+.benefits-table td {
+    padding: 1.2vw;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    font-size: 1.1vw;
+}
+
+
+.benefits-table th:nth-child(1) { 
+    background-color: #0d143a; 
+    color: white; 
+    text-align: left; 
+}
+.benefits-table th:nth-child(2) { 
+    background-color: rgb(0, 159, 218); 
+    color: white; 
+}
+.benefits-table th:nth-child(3) { 
+    background-color: #e3b815; 
+    color: white; 
+}
+.benefits-table th:nth-child(4) { 
+    background-color: #BFDF62; 
+    color: #0d143a; 
+}
+
+.benefits-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.benefits-table td:first-child {
+    font-weight: bold;
+    text-align: left;
+    color: #0d143a;
+}
 
 /*about Page*/
 .aboutBody{
